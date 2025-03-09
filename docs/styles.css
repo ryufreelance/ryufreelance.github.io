@@ -1,0 +1,68 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#neural-network {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content {
+    z-index: 1; /* Asegura que el contenido esté por encima del canvas */
+    text-align: center;
+}
+
+.perfil {
+    width: 178.5px; /* Reducción del 15% desde 210px */
+    height: 178.5px; /* Reducción del 15% desde 210px */
+}
+
+header h1 {
+    font-size: 2.04em; /* Reducción del 15% desde 2.4em */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 8.5px 0; /* Reducción del 15% desde 10px */
+}
+
+nav a {
+    display: inline-block;
+    padding: 8.5px 17px; /* Reducción del 15% desde 10px 20px */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.02em; /* Reducción del 15% desde 1.2em */
+    transition: background-color 0.3s ease;
+    width: 170px; /* Reducción del 15% desde 200px */
+    text-align: center; /* Centrar el texto */
+    border-radius: 5px;
+}
+
+a.linkedin { background-color: #0077b5; } /* Color para LinkedIn */
+a.youtube { background-color: #ff0000; } /* Color para YouTube */
+a.github { background-color: #333333; } /* Color para GitHub */
+a.tiktok { background-color: #000000; } /* Color para TikTok */
+a.whatsapp { background-color: #25d366; } /* Color para WhatsApp */
+a.platzi { background-color: #98c93e; } /* Color para Platzi */
+
+nav a:hover {
+    opacity: 0.8; /* Efecto hover */
+}

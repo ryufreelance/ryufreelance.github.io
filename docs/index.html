@@ -1,54 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="es">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>Portafolio_web</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolando Lugo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <!-- Imagen agregada -->
-                <img src="assets/IMG.png" alt="Rolando Lugo" style="width: 230px; height: 230px; border-radius: 50%; border: 2px solid #ffffff;">
-                <h2 style="color: #ffffff; padding-top: 20px;">Rolando Lugo</h2>
-            </div>
-        </div>
+    <canvas id="neural-network"></canvas>
+    <div class="content">
+        <header>
+            <img src="perfil.png" alt="Foto de perfil" class="perfil">
+            <h1>Rolando Lugo</h1>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/rolandolugo/" target="_blank" class="linkedin">LinkedIn</a></li>
+                    <li><a href="https://www.youtube.com/@ryufreelance" target="_blank" class="youtube">YouTube</a></li>
+                    <li><a href="https://platzi.com/p/roland.___/" target="_blank" class="platzi">Platzi</a></li>
+                    <li><a href="https://github.com/ryufreelance" target="_blank" class="github">GitHub</a></li>
+                    <li><a href="https://www.tiktok.com/@ryufreelance" target="_blank" class="tiktok">TikTok</a></li>
+                    <li><a href="https://wa.me/+573243998102" target="_blank" class="whatsapp">WhatsApp</a></li>
+                </ul>
+            </nav>
+        </main>
     </div>
-
-    <div class="container">
-        <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.linkedin.com/in/rolandolugo/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Conecta en mi perfil de LinkedIn</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.youtube.com/@ryufreelance'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Mira mi canal de Youtube</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://github.com/ryufreelance/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en GitHub</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.tiktok.com/@ryufreelance/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Visitame en Tiktok</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://wa.me/+573243998102'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Enviame un mensaje por WhatsApp</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-center">
-        <a href="https://codepen.io/nightcl4w/pen/dEjreJ" style="color: #34312f;" target="_blank">RyuFreelance</a>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
