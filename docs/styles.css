@@ -56,6 +56,17 @@ nav a {
     border-radius: 5px;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #121212; /* Asegura que el fondo del footer coincida con el de la página */
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
 a.linkedin { background-color: #0077b5; } /* Color para LinkedIn */
 a.youtube { background-color: #ff0000; } /* Color para YouTube */
 a.github { background-color: #333333; } /* Color para GitHub */
